@@ -1,6 +1,7 @@
 # requirements.txt
 # S.T.A.L.K.E.R. 2 Modpack Builder Requirements
 # Python 3.8+ required
-
+gettext>=0.0.1
 # No external dependencies required for core functionality
+
 # Using only Python standard library modules
