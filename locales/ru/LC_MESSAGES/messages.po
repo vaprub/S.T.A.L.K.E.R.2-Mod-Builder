@@ -1,0 +1,426 @@
+# Russian translations for S.T.A.L.K.E.R. 2 Mod Builder.
+# Copyright (C) 2026
+# This file is distributed under the same license as the S.T.A.L.K.E.R. 2 Mod Builder project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: STALKER 2 Mod Builder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-22 14:00+0000\n"
+"PO-Revision-Date: 2026-02-22 15:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+# Main menu
+msgid "Welcome to S.T.A.L.K.E.R. 2 Mod Builder!"
+msgstr "Добро пожаловать в S.T.A.L.K.E.R. 2 Mod Builder!"
+
+msgid "S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn"
+msgstr "S.T.A.L.K.E.R. 2 Ultimate Modpack Builder от Saymonn"
+
+msgid "Extract Game Files"
+msgstr "Распаковать файлы игры"
+
+msgid "Create New Modpack"
+msgstr "Создать новый модпак"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Check Game Version"
+msgstr "Проверить версию игры"
+
+msgid "Exit"
+msgstr "Выход"
+
+msgid "Invalid choice"
+msgstr "Неверный выбор"
+
+# Language info
+msgid "🌐 Language Information:"
+msgstr "🌐 Информация о языке:"
+
+msgid "  Current language: {} ({})"
+msgstr "  Текущий язык: {} ({})"
+
+msgid "Module Selection"
+msgstr "Выбор модулей"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Game Version Analysis"
+msgstr "Анализ версии игры"
+
+msgid "Press Enter to continue..."
+msgstr "Нажмите Enter для продолжения..."
+
+msgid "🚀 Initializing application..."
+msgstr "🚀 Запуск приложения..."
+
+msgid "✅ Application ready!"
+msgstr "✅ Приложение готово!"
+
+msgid "\nPress Enter to continue to main menu..."
+msgstr "\nНажмите Enter для перехода в главное меню..."
+
+msgid "\n✅ Application finished successfully!"
+msgstr "\n✅ Приложение успешно завершено!"
+
+msgid "Press Enter to exit..."
+msgstr "Нажмите Enter для выхода..."
+
+msgid "\n\n⚠ Application terminated by user."
+msgstr "\n\n⚠ Приложение завершено пользователем."
+
+msgid "\n❌ Fatal error: {}"
+msgstr "\n❌ Критическая ошибка: {}"
+
+# Extraction
+msgid ""
+"Extract pakchunk0-Windows.pak? \n\n"
+"This may take a while (5-15 minutes), depending on the speed of your CPU.\n"
+"~300,000 files / ~7GB data to extract). \n\n"
+"Continue?"
+msgstr ""
+"Распаковать pakchunk0-Windows.pak? \n\n"
+"Это может занять некоторое время (5-15 минут), в зависимости от скорости "
+"вашего процессора.\n"
+"Распаковывается ~300,000 файлов / ~7 ГБ данных). \n\n"
+"Продолжить?"
+
+msgid "Extraction completed successfully!"
+msgstr "Распаковка успешно завершена!"
+
+msgid "Extraction failed!"
+msgstr "Ошибка распаковки!"
+
+# Module selection
+msgid "Select which modules to include in your modpack:"
+msgstr "Выберите модули для включения в ваш модпак:"
+
+msgid "Include {}?"
+msgstr "Включить {}?"
+
+msgid "No modules selected. Returning to main menu..."
+msgstr "Модули не выбраны. Возврат в главное меню..."
+
+msgid "Failed to configure {}"
+msgstr "Не удалось настроить {}"
+
+msgid "Enter modpack name (or press Enter for default): "
+msgstr "Введите имя модпака (или нажмите Enter для имени по умолчанию): "
+
+msgid "Building modpack with {} module(s)..."
+msgstr "Сборка модпака с {} модулями..."
+
+msgid "Returning to main menu..."
+msgstr "Возврат в главное меню..."
+
+msgid "Modpack creation failed!"
+msgstr "Ошибка создания модпака!"
+
+msgid "No valid configurations. Modpack creation cancelled."
+msgstr "Нет допустимых конфигураций. Создание модпака отменено."
+
+# Module configuration
+msgid "Custom Configuration"
+msgstr "Пользовательская настройка"
+
+msgid "Select configuration for {}"
+msgstr "Выберите конфигурацию для {}"
+
+msgid "Configuring: {}"
+msgstr "Настройка: {}"
+
+# Game version
+msgid "GAME VERSION ANALYSIS"
+msgstr "АНАЛИЗ ВЕРСИИ ИГРЫ"
+
+msgid "Detected version: {}"
+msgstr "Обнаруженная версия: {}"
+
+msgid "File format: {}"
+msgstr "Формат файлов: {}"
+
+msgid "binary"
+msgstr "бинарный"
+
+msgid "text"
+msgstr "текстовый"
+
+msgid "mixed"
+msgstr "смешанный"
+
+msgid "mixed/unknown"
+msgstr "смешанный/неизвестный"
+
+msgid "unknown"
+msgstr "неизвестно"
+
+msgid "modern"
+msgstr "современная"
+
+msgid "✓ Using modern configuration (binary files detected)"
+msgstr "✓ Используется современная конфигурация (обнаружены бинарные файлы)"
+
+msgid "⚠ Using legacy configuration (text files detected)"
+msgstr "⚠ Используется устаревшая конфигурация (обнаружены текстовые файлы)"
+
+msgid "GAME VERSION DETECTION"
+msgstr "ОПРЕДЕЛЕНИЕ ВЕРСИИ ИГРЫ"
+
+msgid "📊 Detected version: {}"
+msgstr "📊 Обнаруженная версия: {}"
+
+msgid "📁 File format: {}"
+msgstr "📁 Формат файлов: {}"
+
+msgid "🔧 Modern format: {}"
+msgstr "🔧 Современный формат: {}"
+
+msgid "✅ Yes"
+msgstr "✅ Да"
+
+msgid "❌ No"
+msgstr "❌ Нет"
+
+msgid "⚠ Warnings:"
+msgstr "⚠ Предупреждения:"
+
+msgid "How to interpret this:"
+msgstr "Как это понимать:"
+
+msgid "  • 1.8.1+ = Modern version with binary files"
+msgstr "  • 1.8.1+ = Современная версия с бинарными файлами"
+
+msgid "  • 1.5.2-1.7.x = Older version with text files"
+msgstr "  • 1.5.2-1.7.x = Старая версия с текстовыми файлами"
+
+msgid "  • mixed = Inconsistent file formats (may cause issues)"
+msgstr "  • mixed = Несогласованные форматы файлов (могут быть проблемы)"
+
+# Language menu
+msgid "LANGUAGE SELECTION"
+msgstr "ВЫБОР ЯЗЫКА"
+
+msgid "Select your language"
+msgstr "Выберите язык"
+
+msgid "Language changed to {}"
+msgstr "Язык изменен на {}"
+
+msgid "Failed to change language"
+msgstr "Не удалось изменить язык"
+
+msgid "Language Settings"
+msgstr "Настройки языка"
+
+# Settings menu
+msgid "Change Game Path"
+msgstr "Изменить путь к игре"
+
+msgid "View Current Settings"
+msgstr "Просмотреть текущие настройки"
+
+msgid "Clear Cache"
+msgstr "Очистить кэш"
+
+msgid "Refresh Extraction Status"
+msgstr "Обновить статус распаковки"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Completed"
+msgstr "Завершено"
+
+msgid "Not completed"
+msgstr "Не завершено"
+
+msgid "Extraction status refreshed"
+msgstr "Статус распаковки обновлен"
+
+msgid "Current Settings"
+msgstr "Текущие настройки"
+
+msgid "Game Path: {}"
+msgstr "Путь к игре: {}"
+
+msgid "Not set"
+msgstr "Не указан"
+
+msgid "Modpack Base Path: {}"
+msgstr "Базовый путь модпака: {}"
+
+msgid "Last Extraction: {}"
+msgstr "Последняя распаковка: {}"
+
+msgid "Never"
+msgstr "Никогда"
+
+msgid "Extraction Status: {}"
+msgstr "Статус распаковки: {}"
+
+msgid "Language: {} ({})"
+msgstr "Язык: {} ({})"
+
+msgid "Active Extraction Folder: {}"
+msgstr "Активная папка распаковки: {}"
+
+msgid "Game Version: {}"
+msgstr "Версия игры: {}"
+
+msgid "Clear all cached data?"
+msgstr "Очистить все кэшированные данные?"
+
+msgid "Cache cleared!"
+msgstr "Кэш очищен!"
+
+# Prompts
+msgid "Please enter 'y' or 'n'"
+msgstr "Пожалуйста, введите 'y' или 'n'"
+
+msgid "Invalid input. Please try again."
+msgstr "Неверный ввод. Пожалуйста, попробуйте снова."
+
+# Game path setup
+msgid "GAME PATH SETUP REQUIRED"
+msgstr "ТРЕБУЕТСЯ НАСТРОЙКА ПУТИ К ИГРЕ"
+
+msgid ""
+"The application needs to locate your S.T.A.L.K.E.R. 2 installation.\n"
+"\n"
+"You need to find and select this file:\n"
+"  • Stalker2-Win64-Shipping.exe\n"
+"    (located in Stalker2/Binaries/Win64/)\n"
+"\n"
+"Common locations:\n"
+"  • Steam: C:\\Program Files (x86)\\Steam\\steamapps\\common\\S.T.A.L.K.E.R. 2 Heart of Chornobyl\\\n"
+"  • Epic: C:\\Program Files\\Epic Games\\S.T.A.L.K.E.R. 2 Heart of Chornobyl\\\n"
+"  • GOG: C:\\GOG Games\\S.T.A.L.K.E.R. 2 Heart of Chornobyl\\"
+msgstr ""
+"Приложению необходимо найти вашу установку S.T.A.L.K.E.R. 2.\n"
+"\n"
+"Вам нужно найти и выбрать этот файл:\n"
+"  • Stalker2-Win64-Shipping.exe\n"
+"    (находится в папке Stalker2/Binaries/Win64/)\n"
+"\n"
+"Обычные расположения:\n"
+"  • Steam: C:\\Program Files (x86)\\Steam\\steamapps\\common\\S.T.A.L.K.E.R. 2 Heart of Chornobyl\\\n"
+"  • Epic: C:\\Program Files\\Epic Games\\S.T.A.L.K.E.R. 2 Heart of Chornobyl\\\n"
+"  • GOG: C:\\GOG Games\\S.T.A.L.K.E.R. 2 Heart of Chornobyl\\"
+
+msgid "Press Enter to open file browser..."
+msgstr "Нажмите Enter для открытия проводника..."
+
+msgid "Select STALKER 2 Executable (Stalker2-Win64-Shipping.exe)"
+msgstr "Выберите исполняемый файл STALKER 2 (Stalker2-Win64-Shipping.exe)"
+
+msgid "Game path set successfully!"
+msgstr "Путь к игре успешно установлен!"
+
+msgid "Game directory: {}"
+msgstr "Папка игры: {}"
+
+msgid "⚠ Warning: Could not validate game installation."
+msgstr "⚠ Предупреждение: Не удалось проверить установку игры."
+
+msgid "Make sure you selected the correct executable."
+msgstr "Убедитесь, что вы выбрали правильный исполняемый файл."
+
+msgid "✓ Game installation validated successfully!"
+msgstr "✓ Установка игры успешно проверена!"
+
+msgid "✗ No file selected. Game path setup cancelled."
+msgstr "✗ Файл не выбран. Настройка пути к игре отменена."
+
+msgid "You can set the game path later in Settings."
+msgstr "Вы можете установить путь к игре позже в настройках."
+
+# Mod builder
+msgid "ERROR: Game files must be extracted first!"
+msgstr "ОШИБКА: Сначала необходимо распаковать файлы игры!"
+
+msgid "Using extraction folder: {}"
+msgstr "Используется папка распаковки: {}"
+
+msgid "⚠ File conflicts detected:"
+msgstr "⚠ Обнаружены конфликты файлов:"
+
+msgid "  {} will be modified by: {}"
+msgstr "  {} будет изменен модулями: {}"
+
+msgid "  Modules will apply changes incrementally (later modules preserve earlier changes)"
+msgstr "  Модули будут применять изменения последовательно (более поздние модули сохраняют изменения предыдущих)"
+
+msgid "Applying module: {}"
+msgstr "Применение модуля: {}"
+
+msgid "✓ {} applied successfully"
+msgstr "✓ {} успешно применен"
+
+msgid "✗ Failed to apply {}"
+msgstr "✗ Не удалось применить {}"
+
+msgid "✗ Module not found: {}"
+msgstr "✗ Модуль не найден: {}"
+
+msgid "Available modules: {}"
+msgstr "Доступные модули: {}"
+
+msgid "ERROR: No modules were applied successfully"
+msgstr "ОШИБКА: Ни один модуль не был успешно применен"
+
+msgid "Packing mod to: {}"
+msgstr "Упаковка мода в: {}"
+
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+msgid "✓ Mod packed successfully!"
+msgstr "✓ Мод успешно упакован!"
+
+msgid "📦 Creating Vortex-compatible ZIP archive..."
+msgstr "📦 Создание ZIP-архива для Vortex..."
+
+msgid "  📦 Added to ZIP: {}"
+msgstr "  📦 Добавлено в ZIP: {}"
+
+msgid "✅ Vortex ZIP created: {} ({:.2f} MB)"
+msgstr "✅ ZIP для Vortex создан: {} ({:.2f} МБ)"
+
+msgid "   Location: {}"
+msgstr "   Расположение: {}"
+
+msgid "⚠️ Warning: Could not create Vortex ZIP: {}"
+msgstr "⚠️ Предупреждение: Не удалось создать ZIP для Vortex: {}"
+
+msgid "✓ Unpacked version created in: {}"
+msgstr "✓ Распакованная версия создана в: {}"
+
+msgid "CUSTOM MOD CREATED SUCCESSFULLY!"
+msgstr "ПОЛЬЗОВАТЕЛЬСКИЙ МОД УСПЕШНО СОЗДАН!"
+
+msgid "📦 Packed mod (.pak): {}"
+msgstr "📦 Упакованный мод (.pak): {}"
+
+msgid "📂 Unpacked mod (folders): {}"
+msgstr "📂 Распакованный мод (папки): {}"
+
+msgid "🎮 Vortex ZIP: {}"
+msgstr "🎮 ZIP для Vortex: {}"
+
+msgid "⚠ NOTE: You are using an older game version (pre-1.8.1)"
+msgstr "⚠ ПРИМЕЧАНИЕ: Вы используете старую версию игры (до 1.8.1)"
+
+msgid "  The mod should work, but some features may be different."
+msgstr "  Мод должен работать, но некоторые функции могут отличаться."
+
+msgid "Install mod to game directory? (y/n): "
+msgstr "Установить мод в папку игры?

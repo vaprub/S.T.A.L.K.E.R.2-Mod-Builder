@@ -130,3 +130,70 @@ AttributeError: 'ModuleLoader' object has no attribute 'set_config_manager'
 2026-02-22 14:49:49,567 - src.core.pak_manager - INFO - Packing data\build\temp\NaT to output\paks\NaT.pak
 2026-02-22 14:49:49,767 - src.core.pak_manager - INFO - Packing completed successfully
 2026-02-22 14:49:57,170 - src.core.mod_builder - INFO - Mod build completed successfully
+2026-02-22 15:54:17,571 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 15:54:17,572 - src.app - INFO - Starting application setup
+2026-02-22 15:54:17,581 - src.modules.module_loader - ERROR - Failed to load module carry_weight_module: No module named 'src.modules.i18n'
+2026-02-22 15:54:17,583 - src.modules.module_loader - ERROR - Failed to load module day_length_module: No module named 'src.modules.i18n'
+2026-02-22 15:54:17,586 - src.modules.module_loader - ERROR - Failed to load module stamina_module: No module named 'src.modules.i18n'
+2026-02-22 15:54:17,587 - src.modules.module_loader - ERROR - Failed to load module trader_durability_module: No module named 'src.modules.i18n'
+2026-02-22 15:54:17,589 - src.modules.module_loader - ERROR - Failed to load module weapon_durability_module: No module named 'src.modules.i18n'
+2026-02-22 15:54:17,589 - src.app - INFO - Setup completed successfully
+2026-02-22 15:59:15,940 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 15:59:15,940 - src.app - INFO - Starting application setup
+2026-02-22 15:59:15,945 - src.modules.module_loader - ERROR - Failed to load module carry_weight_module: No module named 'src.modules.i18n'
+2026-02-22 15:59:15,946 - src.modules.module_loader - ERROR - Failed to load module day_length_module: No module named 'src.modules.i18n'
+2026-02-22 15:59:15,948 - src.modules.module_loader - ERROR - Failed to load module stamina_module: No module named 'src.modules.i18n'
+2026-02-22 15:59:15,950 - src.modules.module_loader - ERROR - Failed to load module trader_durability_module: No module named 'src.modules.i18n'
+2026-02-22 15:59:15,952 - src.modules.module_loader - ERROR - Failed to load module weapon_durability_module: No module named 'src.modules.i18n'
+2026-02-22 15:59:15,953 - src.app - INFO - Setup completed successfully
+2026-02-22 16:04:59 - __main__ - INFO - Logging system initialized
+2026-02-22 16:04:59 - __main__ - INFO - ============================================================
+2026-02-22 16:04:59 - __main__ - INFO - S.T.A.L.K.E.R. 2 Mod Builder starting...
+2026-02-22 16:04:59 - __main__ - INFO - ============================================================
+2026-02-22 16:04:59 - __main__ - INFO - System language detected: ru (Русский)
+2026-02-22 16:04:59 - __main__ - INFO - Testing translations for language: ru
+2026-02-22 16:04:59 - __main__ - WARNING -   String not translated: 'Module Selection'
+2026-02-22 16:04:59 - __main__ - WARNING -   String not translated: 'Settings'
+2026-02-22 16:04:59 - __main__ - WARNING -   String not translated: 'Game Version Analysis'
+2026-02-22 16:04:59 - __main__ - WARNING -   String not translated: 'Press Enter to continue...'
+2026-02-22 16:05:01 - __main__ - INFO - Initializing application...
+2026-02-22 16:05:01 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 16:05:01 - __main__ - INFO - Application initialized successfully
+2026-02-22 16:05:05 - __main__ - INFO - Logging system initialized
+2026-02-22 16:05:05 - __main__ - INFO - ============================================================
+2026-02-22 16:05:05 - __main__ - INFO - S.T.A.L.K.E.R. 2 Mod Builder starting...
+2026-02-22 16:05:05 - __main__ - INFO - ============================================================
+2026-02-22 16:05:05 - __main__ - INFO - System language detected: ru (Русский)
+2026-02-22 16:05:05 - __main__ - INFO - Testing translations for language: ru
+2026-02-22 16:05:05 - __main__ - WARNING -   String not translated: 'Module Selection'
+2026-02-22 16:05:05 - __main__ - WARNING -   String not translated: 'Settings'
+2026-02-22 16:05:05 - __main__ - WARNING -   String not translated: 'Game Version Analysis'
+2026-02-22 16:05:05 - __main__ - WARNING -   String not translated: 'Press Enter to continue...'
+2026-02-22 16:05:07 - __main__ - INFO - Initializing application...
+2026-02-22 16:05:07 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 16:05:07 - __main__ - INFO - Application initialized successfully
+2026-02-22 16:05:47 - src.app - INFO - Starting application setup
+2026-02-22 16:05:47 - src.modules.module_loader - ERROR - Failed to load module carry_weight_module: No module named 'src.modules.i18n'
+2026-02-22 16:05:47 - src.modules.module_loader - ERROR - Failed to load module day_length_module: No module named 'src.modules.i18n'
+2026-02-22 16:05:47 - src.modules.module_loader - ERROR - Failed to load module stamina_module: No module named 'src.modules.i18n'
+2026-02-22 16:05:47 - src.modules.module_loader - ERROR - Failed to load module trader_durability_module: No module named 'src.modules.i18n'
+2026-02-22 16:05:47 - src.modules.module_loader - ERROR - Failed to load module weapon_durability_module: No module named 'src.modules.i18n'
+2026-02-22 16:05:47 - src.app - INFO - Setup completed successfully
+2026-02-22 16:15:25,697 - __main__ - INFO - ============================================================
+2026-02-22 16:15:25,697 - __main__ - INFO - S.T.A.L.K.E.R. 2 Mod Builder starting...
+2026-02-22 16:15:25,697 - __main__ - INFO - ============================================================
+2026-02-22 16:15:25,756 - __main__ - INFO - Testing translations for language: ru
+2026-02-22 16:15:25,757 - __main__ - WARNING - String not translated: 'Module Selection'
+2026-02-22 16:15:25,757 - __main__ - WARNING - String not translated: 'Settings'
+2026-02-22 16:15:25,757 - __main__ - WARNING - String not translated: 'Game Version Analysis'
+2026-02-22 16:15:25,757 - __main__ - WARNING - String not translated: 'Press Enter to continue...'
+2026-02-22 16:15:27,757 - __main__ - INFO - Initializing application...
+2026-02-22 16:15:27,759 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 16:15:27,759 - __main__ - INFO - Application initialized successfully
+2026-02-22 16:15:30,479 - src.app - INFO - Starting application setup
+2026-02-22 16:15:30,484 - src.modules.module_loader - ERROR - Failed to load module carry_weight_module: No module named 'src.modules.i18n'
+2026-02-22 16:15:30,486 - src.modules.module_loader - ERROR - Failed to load module day_length_module: No module named 'src.modules.i18n'
+2026-02-22 16:15:30,489 - src.modules.module_loader - ERROR - Failed to load module stamina_module: No module named 'src.modules.i18n'
+2026-02-22 16:15:30,491 - src.modules.module_loader - ERROR - Failed to load module trader_durability_module: No module named 'src.modules.i18n'
+2026-02-22 16:15:30,493 - src.modules.module_loader - ERROR - Failed to load module weapon_durability_module: No module named 'src.modules.i18n'
+2026-02-22 16:15:30,493 - src.app - INFO - Setup completed successfully

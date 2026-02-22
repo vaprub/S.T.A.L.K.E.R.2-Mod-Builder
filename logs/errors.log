@@ -1,0 +1,5 @@
+2026-02-22 16:05:47,779 - src.modules.module_loader - ERROR - Failed to load module carry_weight_module: No module named 'src.modules.i18n'
+2026-02-22 16:05:47,781 - src.modules.module_loader - ERROR - Failed to load module day_length_module: No module named 'src.modules.i18n'
+2026-02-22 16:05:47,783 - src.modules.module_loader - ERROR - Failed to load module stamina_module: No module named 'src.modules.i18n'
+2026-02-22 16:05:47,786 - src.modules.module_loader - ERROR - Failed to load module trader_durability_module: No module named 'src.modules.i18n'
+2026-02-22 16:05:47,788 - src.modules.module_loader - ERROR - Failed to load module weapon_durability_module: No module named 'src.modules.i18n'
