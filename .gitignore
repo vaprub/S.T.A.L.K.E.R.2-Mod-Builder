@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Project specific
+data/extract/
+data/build/
+data/cache/
+output/
+logs/
+*.log
+*.pak
+*.zip
+
+# Translations
+locales/*/LC_MESSAGES/*.mo
+!locales/*/LC_MESSAGES/*.po
+
+# Virtual environment
+venv/
+env/
+ENV/
