@@ -1,0 +1,132 @@
+2026-02-22 13:56:09,062 - root - ERROR - Fatal error: 'ModBuilder' object has no attribute 'set_game_manager'
+Traceback (most recent call last):
+  File "D:\Games\S.T.A.L.K.E.R. 2.Heart.of.Chornobyl.Ultimate.Editon-InsaneRamZes\S.T.A.L.K.E.R.2-Mod-Builder-by-Saymonn\main.py", line 35, in main
+    app = ModBuilderApp()
+  File "D:\Games\S.T.A.L.K.E.R. 2.Heart.of.Chornobyl.Ultimate.Editon-InsaneRamZes\S.T.A.L.K.E.R.2-Mod-Builder-by-Saymonn\src\app.py", line 34, in __init__
+    self.mod_builder.set_game_manager(self.game_manager)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModBuilder' object has no attribute 'set_game_manager'
+2026-02-22 13:58:09,465 - src.core.mod_builder - INFO - Game manager set successfully
+2026-02-22 13:58:09,488 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 13:58:09,489 - src.app - INFO - Starting application setup
+2026-02-22 13:58:09,496 - src.modules.module_loader - INFO - Loaded module: carry_weight_module (2)
+2026-02-22 13:58:09,497 - src.modules.module_loader - INFO - Loaded module: carry_weight_module
+2026-02-22 13:58:09,498 - src.modules.module_loader - INFO - Loaded module: day_length_module
+2026-02-22 13:58:09,499 - src.modules.module_loader - INFO - Loaded module: stamina_module
+2026-02-22 13:58:09,499 - src.modules.module_loader - INFO - Loaded module: trader_durability_module
+2026-02-22 13:58:09,500 - src.modules.module_loader - INFO - Loaded module: weapon_durability_module
+2026-02-22 13:58:09,500 - src.app - INFO - Setup completed successfully
+2026-02-22 14:00:50,974 - src.core.mod_builder - INFO - Game manager set successfully
+2026-02-22 14:00:50,975 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 14:00:50,975 - src.app - INFO - Starting application setup
+2026-02-22 14:00:50,978 - src.modules.module_loader - INFO - Loaded module: carry_weight_module
+2026-02-22 14:00:50,979 - src.modules.module_loader - INFO - Loaded module: day_length_module
+2026-02-22 14:00:50,980 - src.modules.module_loader - INFO - Loaded module: stamina_module
+2026-02-22 14:00:50,981 - src.modules.module_loader - INFO - Loaded module: trader_durability_module
+2026-02-22 14:00:50,981 - src.modules.module_loader - INFO - Loaded module: weapon_durability_module
+2026-02-22 14:00:50,982 - src.app - INFO - Setup completed successfully
+2026-02-22 14:01:13,019 - src.core.mod_builder - INFO - Building mod: NaTv2
+2026-02-22 14:01:13,020 - src.core.mod_builder - ERROR - Module not found: CarryWeightModule
+2026-02-22 14:04:41,052 - src.core.mod_builder - INFO - Building mod: NaTv2
+2026-02-22 14:04:41,052 - src.core.mod_builder - ERROR - Module not found: CarryWeightModule
+2026-02-22 14:05:14,761 - root - ERROR - Fatal error: 'ModuleLoader' object has no attribute 'set_config_manager'
+Traceback (most recent call last):
+  File "D:\Games\S.T.A.L.K.E.R. 2.Heart.of.Chornobyl.Ultimate.Editon-InsaneRamZes\S.T.A.L.K.E.R.2-Mod-Builder-by-Saymonn\main.py", line 35, in main
+    app = ModBuilderApp()
+  File "D:\Games\S.T.A.L.K.E.R. 2.Heart.of.Chornobyl.Ultimate.Editon-InsaneRamZes\S.T.A.L.K.E.R.2-Mod-Builder-by-Saymonn\src\app.py", line 27, in __init__
+    self.module_loader.set_config_manager(self.config_manager)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModuleLoader' object has no attribute 'set_config_manager'
+2026-02-22 14:05:19,253 - root - ERROR - Fatal error: 'ModuleLoader' object has no attribute 'set_config_manager'
+Traceback (most recent call last):
+  File "D:\Games\S.T.A.L.K.E.R. 2.Heart.of.Chornobyl.Ultimate.Editon-InsaneRamZes\S.T.A.L.K.E.R.2-Mod-Builder-by-Saymonn\main.py", line 35, in main
+    app = ModBuilderApp()
+  File "D:\Games\S.T.A.L.K.E.R. 2.Heart.of.Chornobyl.Ultimate.Editon-InsaneRamZes\S.T.A.L.K.E.R.2-Mod-Builder-by-Saymonn\src\app.py", line 27, in __init__
+    self.module_loader.set_config_manager(self.config_manager)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModuleLoader' object has no attribute 'set_config_manager'
+2026-02-22 14:06:14,824 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 14:06:14,825 - src.app - INFO - Starting application setup
+2026-02-22 14:06:14,828 - src.modules.module_loader - INFO - Loaded module: carry_weight_module
+2026-02-22 14:06:14,829 - src.modules.module_loader - INFO - Loaded module: day_length_module
+2026-02-22 14:06:14,830 - src.modules.module_loader - INFO - Loaded module: stamina_module
+2026-02-22 14:06:14,831 - src.modules.module_loader - INFO - Loaded module: trader_durability_module
+2026-02-22 14:06:14,832 - src.modules.module_loader - INFO - Loaded module: weapon_durability_module
+2026-02-22 14:06:14,832 - src.app - INFO - Setup completed successfully
+2026-02-22 14:06:35,748 - src.core.mod_builder - INFO - Building mod: NaTv2
+2026-02-22 14:06:35,748 - src.core.mod_builder - ERROR - Module not found: CarryWeightModule
+2026-02-22 14:10:25,833 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 14:10:25,833 - src.app - INFO - Starting application setup
+2026-02-22 14:10:25,837 - src.modules.module_loader - INFO - Loaded module: carry_weight_module
+2026-02-22 14:10:25,838 - src.modules.module_loader - INFO - Loaded module: day_length_module
+2026-02-22 14:10:25,838 - src.modules.module_loader - INFO - Loaded module: stamina_module
+2026-02-22 14:10:25,839 - src.modules.module_loader - INFO - Loaded module: trader_durability_module
+2026-02-22 14:10:25,840 - src.modules.module_loader - INFO - Loaded module: weapon_durability_module
+2026-02-22 14:10:25,840 - src.app - INFO - Setup completed successfully
+2026-02-22 14:10:48,531 - src.core.mod_builder - INFO - Building mod: NaTv@
+2026-02-22 14:10:48,532 - src.core.mod_builder - INFO - Found module by class name: CarryWeightModule
+2026-02-22 14:10:48,532 - src.core.mod_builder - INFO - Applying module: CarryWeightModule
+2026-02-22 14:10:48,712 - src.core.mod_builder - INFO - Found module by class name: DayLengthModule
+2026-02-22 14:10:48,712 - src.core.mod_builder - INFO - Applying module: DayLengthModule
+2026-02-22 14:10:48,733 - src.core.mod_builder - INFO - Found module by class name: StaminaModule
+2026-02-22 14:10:48,733 - src.core.mod_builder - INFO - Applying module: StaminaModule
+2026-02-22 14:10:48,735 - src.core.mod_builder - INFO - Packing mod to: output\paks\NaTv@.pak
+2026-02-22 14:10:48,736 - src.core.pak_manager - INFO - Packing data\build\temp\NaTv@ to output\paks\NaTv@.pak
+2026-02-22 14:10:48,779 - src.core.pak_manager - INFO - Packing completed successfully
+2026-02-22 14:17:09,739 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 14:17:09,740 - src.app - INFO - Starting application setup
+2026-02-22 14:17:09,746 - src.modules.module_loader - INFO - Loaded module: carry_weight_module
+2026-02-22 14:17:09,747 - src.modules.module_loader - INFO - Loaded module: day_length_module
+2026-02-22 14:17:09,748 - src.modules.module_loader - INFO - Loaded module: stamina_module
+2026-02-22 14:17:09,749 - src.modules.module_loader - INFO - Loaded module: trader_durability_module
+2026-02-22 14:17:09,749 - src.modules.module_loader - INFO - Loaded module: weapon_durability_module
+2026-02-22 14:17:09,750 - src.app - INFO - Setup completed successfully
+2026-02-22 14:17:29,227 - src.core.mod_builder - INFO - Building mod: NaT
+2026-02-22 14:17:29,228 - src.core.mod_builder - INFO - Found module by class name: CarryWeightModule
+2026-02-22 14:17:29,228 - src.core.mod_builder - INFO - Applying module: CarryWeightModule
+2026-02-22 14:17:29,231 - src.core.mod_builder - INFO - Found module by class name: DayLengthModule
+2026-02-22 14:17:29,232 - src.core.mod_builder - INFO - Applying module: DayLengthModule
+2026-02-22 14:17:29,243 - src.core.mod_builder - INFO - Found module by class name: StaminaModule
+2026-02-22 14:17:29,243 - src.core.mod_builder - INFO - Applying module: StaminaModule
+2026-02-22 14:17:29,244 - src.core.mod_builder - INFO - Packing mod to: output\paks\NaT.pak
+2026-02-22 14:17:29,245 - src.core.pak_manager - INFO - Packing data\build\temp\NaT to output\paks\NaT.pak
+2026-02-22 14:17:29,280 - src.core.pak_manager - INFO - Packing completed successfully
+2026-02-22 14:17:40,827 - src.core.mod_builder - INFO - Mod build completed successfully
+2026-02-22 14:26:06,843 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 14:26:06,843 - src.app - INFO - Starting application setup
+2026-02-22 14:26:06,849 - src.modules.module_loader - INFO - Loaded module: carry_weight_module
+2026-02-22 14:26:06,850 - src.modules.module_loader - INFO - Loaded module: day_length_module
+2026-02-22 14:26:06,851 - src.modules.module_loader - INFO - Loaded module: stamina_module
+2026-02-22 14:26:06,851 - src.modules.module_loader - INFO - Loaded module: trader_durability_module
+2026-02-22 14:26:06,852 - src.modules.module_loader - INFO - Loaded module: weapon_durability_module
+2026-02-22 14:26:06,852 - src.app - INFO - Setup completed successfully
+2026-02-22 14:26:43,059 - src.core.mod_builder - INFO - Building mod: NaT
+2026-02-22 14:26:43,059 - src.core.mod_builder - INFO - Found module by class name: CarryWeightModule
+2026-02-22 14:26:43,060 - src.core.mod_builder - INFO - Applying module: CarryWeightModule
+2026-02-22 14:26:43,063 - src.core.mod_builder - INFO - Found module by class name: DayLengthModule
+2026-02-22 14:26:43,063 - src.core.mod_builder - INFO - Applying module: DayLengthModule
+2026-02-22 14:26:43,073 - src.core.mod_builder - INFO - Found module by class name: StaminaModule
+2026-02-22 14:26:43,074 - src.core.mod_builder - INFO - Applying module: StaminaModule
+2026-02-22 14:26:43,075 - src.core.mod_builder - INFO - Packing mod to: output\paks\NaT.pak
+2026-02-22 14:26:43,076 - src.core.pak_manager - INFO - Packing data\build\temp\NaT to output\paks\NaT.pak
+2026-02-22 14:26:43,105 - src.core.pak_manager - INFO - Packing completed successfully
+2026-02-22 14:26:52,138 - src.core.mod_builder - INFO - Mod build completed successfully
+2026-02-22 14:49:33,497 - src.app - INFO - S.T.A.L.K.E.R. 2 Ultimate Modpack Builder by Saymonn initialized
+2026-02-22 14:49:33,497 - src.app - INFO - Starting application setup
+2026-02-22 14:49:33,504 - src.modules.module_loader - INFO - Loaded module: carry_weight_module
+2026-02-22 14:49:33,505 - src.modules.module_loader - INFO - Loaded module: day_length_module
+2026-02-22 14:49:33,506 - src.modules.module_loader - INFO - Loaded module: stamina_module
+2026-02-22 14:49:33,506 - src.modules.module_loader - INFO - Loaded module: trader_durability_module
+2026-02-22 14:49:33,507 - src.modules.module_loader - INFO - Loaded module: weapon_durability_module
+2026-02-22 14:49:33,507 - src.app - INFO - Setup completed successfully
+2026-02-22 14:49:48,642 - src.core.mod_builder - INFO - Building mod: NaT
+2026-02-22 14:49:48,643 - src.core.mod_builder - INFO - Found module by class name: CarryWeightModule
+2026-02-22 14:49:48,643 - src.core.mod_builder - INFO - Applying module: CarryWeightModule
+2026-02-22 14:49:49,539 - src.core.mod_builder - INFO - Found module by class name: DayLengthModule
+2026-02-22 14:49:49,540 - src.core.mod_builder - INFO - Applying module: DayLengthModule
+2026-02-22 14:49:49,563 - src.core.mod_builder - INFO - Found module by class name: StaminaModule
+2026-02-22 14:49:49,564 - src.core.mod_builder - INFO - Applying module: StaminaModule
+2026-02-22 14:49:49,565 - src.core.mod_builder - INFO - Packing mod to: output\paks\NaT.pak
+2026-02-22 14:49:49,567 - src.core.pak_manager - INFO - Packing data\build\temp\NaT to output\paks\NaT.pak
+2026-02-22 14:49:49,767 - src.core.pak_manager - INFO - Packing completed successfully
+2026-02-22 14:49:57,170 - src.core.mod_builder - INFO - Mod build completed successfully

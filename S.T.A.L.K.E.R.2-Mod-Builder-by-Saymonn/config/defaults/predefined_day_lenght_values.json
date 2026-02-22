@@ -1,0 +1,74 @@
+{
+	"configurations": {
+		"vanilla": {
+			"coefficient": 24,
+			"description": "Vanilla [1 real minute = 2.5 in-game minutes]",
+			"speed_info": "[Default]"
+		},
+		"faster_2_5x": {
+			"coefficient": 60,
+			"description": "1 real minute = 1 in-game hour",
+			"speed_info": "[2.5x faster than Vanilla]"
+		},
+		"faster_1_25x": {
+			"coefficient": 30,
+			"description": "2 real minutes = 1 in-game hour",
+			"speed_info": "[1.25x faster than Vanilla]"
+		},
+		"slower_1_5x": {
+			"coefficient": 16,
+			"description": "3.75 real minutes = 1 in-game hour",
+			"speed_info": "[1.5x slower than Vanilla]"
+		},
+		"slower_2x": {
+			"coefficient": 12,
+			"description": "5 real minutes = 1 in-game hour",
+			"speed_info": "[2x slower than Vanilla]"
+		},
+		"slower_2_5x": {
+			"coefficient": 9.6,
+			"description": "6.25 real minutes = 1 in-game hour",
+			"speed_info": "[2.5x slower than Vanilla]"
+		},
+		"slower_3x": {
+			"coefficient": 8,
+			"description": "7.5 real minutes = 1 in-game hour",
+			"speed_info": "[3x slower than Vanilla]"
+		},
+		"slower_4x": {
+			"coefficient": 6,
+			"description": "10 real minutes = 1 in-game hour",
+			"speed_info": "[4x slower than Vanilla]"
+		},
+		"slower_5x": {
+			"coefficient": 4.8,
+			"description": "12.5 real minutes = 1 in-game hour",
+			"speed_info": "[5x slower than Vanilla]"
+		},
+		"slower_6x": {
+			"coefficient": 4,
+			"description": "15 real minutes = 1 in-game hour",
+			"speed_info": "[6x slower than Vanilla]"
+		},
+		"slower_8x": {
+			"coefficient": 3,
+			"description": "20 real minutes = 1 in-game hour",
+			"speed_info": "[8x slower than Vanilla]"
+		},
+		"slower_10x": {
+			"coefficient": 2.4,
+			"description": "25 real minutes = 1 in-game hour",
+			"speed_info": "[10x slower than Vanilla]"
+		},
+		"slower_12x": {
+			"coefficient": 2,
+			"description": "30 real minutes = 1 in-game hour",
+			"speed_info": "[12x slower than Vanilla]"
+		},
+		"realtime_1_1": {
+			"coefficient": 1,
+			"description": "60 real minutes = 1 in-game hour (1:1 time)",
+			"speed_info": "[24x slower than Vanilla]"
+		}
+	}
+}
