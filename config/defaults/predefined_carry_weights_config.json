@@ -1,0 +1,340 @@
+{
+	"configurations": {
+		"vanilla": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 50.0,
+				"medium_effect_start_ui": 50,
+				"critical_effect_start_ui": 70
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 90,
+				"additional_inventory_weight_max": 140
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 80,
+				"inventory_penalty_less_weight": 49.99,
+				"thresholds": {
+					"no_effect": 80,
+					"velocity_change_1": 50,
+					"velocity_change_2": 60,
+					"velocity_change_3": 70
+				}
+			}
+		},
+		"carry_weight_100": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 70.0,
+				"medium_effect_start_ui": 70,
+				"critical_effect_start_ui": 90
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 100,
+				"inventory_penalty_less_weight": 69.99,
+				"thresholds": {
+					"no_effect": 100,
+					"velocity_change_1": 70,
+					"velocity_change_2": 80,
+					"velocity_change_3": 90
+				}
+			}
+		},
+		"carry_weight_120": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 85.0,
+				"medium_effect_start_ui": 85,
+				"critical_effect_start_ui": 105
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 120,
+				"inventory_penalty_less_weight": 84.99,
+				"thresholds": {
+					"no_effect": 120,
+					"velocity_change_1": 85,
+					"velocity_change_2": 95,
+					"velocity_change_3": 105
+				}
+			}
+		},
+		"carry_weight_150": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 120.0,
+				"medium_effect_start_ui": 120,
+				"critical_effect_start_ui": 140
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 150,
+				"inventory_penalty_less_weight": 119.99,
+				"thresholds": {
+					"no_effect": 150,
+					"velocity_change_1": 120,
+					"velocity_change_2": 130,
+					"velocity_change_3": 140
+				}
+			}
+		},
+		"carry_weight_200": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 170.0,
+				"medium_effect_start_ui": 170,
+				"critical_effect_start_ui": 190
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 200,
+				"inventory_penalty_less_weight": 169.99,
+				"thresholds": {
+					"no_effect": 200,
+					"velocity_change_1": 170,
+					"velocity_change_2": 180,
+					"velocity_change_3": 190
+				}
+			}
+		},
+		"carry_weight_250": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 220.0,
+				"medium_effect_start_ui": 220,
+				"critical_effect_start_ui": 240
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 250,
+				"inventory_penalty_less_weight": 219.99,
+				"thresholds": {
+					"no_effect": 250,
+					"velocity_change_1": 220,
+					"velocity_change_2": 230,
+					"velocity_change_3": 240
+				}
+			}
+		},
+		"carry_weight_300": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 265.0,
+				"medium_effect_start_ui": 265,
+				"critical_effect_start_ui": 285
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 300,
+				"inventory_penalty_less_weight": 264.99,
+				"thresholds": {
+					"no_effect": 300,
+					"velocity_change_1": 265,
+					"velocity_change_2": 275,
+					"velocity_change_3": 285
+				}
+			}
+		},
+		"carry_weight_350": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 310.0,
+				"medium_effect_start_ui": 310,
+				"critical_effect_start_ui": 335
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 350,
+				"inventory_penalty_less_weight": 309.99,
+				"thresholds": {
+					"no_effect": 350,
+					"velocity_change_1": 310,
+					"velocity_change_2": 322,
+					"velocity_change_3": 335
+				}
+			}
+		},
+		"carry_weight_400": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 350.0,
+				"medium_effect_start_ui": 350,
+				"critical_effect_start_ui": 380
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 400,
+				"inventory_penalty_less_weight": 349.99,
+				"thresholds": {
+					"no_effect": 400,
+					"velocity_change_1": 350,
+					"velocity_change_2": 365,
+					"velocity_change_3": 380
+				}
+			}
+		},
+		"carry_weight_500": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 440.0,
+				"medium_effect_start_ui": 440,
+				"critical_effect_start_ui": 480
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 500,
+				"inventory_penalty_less_weight": 439.99,
+				"thresholds": {
+					"no_effect": 500,
+					"velocity_change_1": 440,
+					"velocity_change_2": 460,
+					"velocity_change_3": 480
+				}
+			}
+		},
+		"carry_weight_600": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 530.0,
+				"medium_effect_start_ui": 530,
+				"critical_effect_start_ui": 575
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 600,
+				"inventory_penalty_less_weight": 529.99,
+				"thresholds": {
+					"no_effect": 600,
+					"velocity_change_1": 530,
+					"velocity_change_2": 552,
+					"velocity_change_3": 575
+				}
+			}
+		},
+		"carry_weight_700": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 615.0,
+				"medium_effect_start_ui": 615,
+				"critical_effect_start_ui": 670
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 700,
+				"inventory_penalty_less_weight": 614.99,
+				"thresholds": {
+					"no_effect": 700,
+					"velocity_change_1": 615,
+					"velocity_change_2": 642,
+					"velocity_change_3": 670
+				}
+			}
+		},
+		"carry_weight_800": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 705.0,
+				"medium_effect_start_ui": 705,
+				"critical_effect_start_ui": 765
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 800,
+				"inventory_penalty_less_weight": 704.99,
+				"thresholds": {
+					"no_effect": 800,
+					"velocity_change_1": 705,
+					"velocity_change_2": 735,
+					"velocity_change_3": 765
+				}
+			}
+		},
+		"carry_weight_900": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 790.0,
+				"medium_effect_start_ui": 790,
+				"critical_effect_start_ui": 860
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 900,
+				"inventory_penalty_less_weight": 789.99,
+				"thresholds": {
+					"no_effect": 900,
+					"velocity_change_1": 790,
+					"velocity_change_2": 825,
+					"velocity_change_3": 860
+				}
+			}
+		},
+		"carry_weight_1000": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 880.0,
+				"medium_effect_start_ui": 880,
+				"critical_effect_start_ui": 955
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 1000,
+				"inventory_penalty_less_weight": 879.99,
+				"thresholds": {
+					"no_effect": 1000,
+					"velocity_change_1": 880,
+					"velocity_change_2": 917,
+					"velocity_change_3": 955
+				}
+			}
+		},
+		"carry_weight_9999": {
+			"CoreVariables.cfg": {
+				"inventory_penalty_less_weight": 9996.0,
+				"medium_effect_start_ui": 9996,
+				"critical_effect_start_ui": 9998
+			},
+			"ObjEffectMaxParamsPrototypes.cfg": {
+				"penalty_less_weight_max": 9999,
+				"additional_inventory_weight_max": 9999
+			},
+			"ObjWeightParamsPrototypes.cfg": {
+				"max_inventory_mass": 9999,
+				"inventory_penalty_less_weight": 9995.99,
+				"thresholds": {
+					"no_effect": 9999,
+					"velocity_change_1": 9996,
+					"velocity_change_2": 9997,
+					"velocity_change_3": 9998
+				}
+			}
+		}
+	}
+}
