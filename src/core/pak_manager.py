@@ -67,10 +67,9 @@ class PakManager:
                 print(f"   Methods used: {', '.join(version_info['methods_used'])}")
                 print(f"   Modern format: {'✅ Yes' if version_info['is_modern'] else '❌ No'}")
                 
-                # Сохраняем всю информацию о версии
+                # Сохраняем информацию о версии (но не путь распаковки)
                 update_data = {
                     'last_extraction': timestamp,
-                    'last_extraction_path': str(extract_dir),
                     'game_version': version_info['version'],
                     'game_version_confidence': version_info['confidence'],
                     'game_version_details': version_info['details'],
@@ -79,7 +78,7 @@ class PakManager:
                     'game_version_detected_at': datetime.now().isoformat()
                 }
                 
-                # Добавляем отдельные поля для каждой версии для удобства
+                # Добавляем отдельные поля для каждой версии
                 if '1.8.1' in version_info['version']:
                     update_data['game_version_major'] = '1.8.1'
                 elif '1.7' in version_info['version']:
@@ -120,13 +119,12 @@ class PakManager:
             result['details']['error'] = "GameData folder not found"
             return result
         
-        # МЕТОД 1: Анализ бинарных vs текстовых файлов (самый надежный)
+        # МЕТОД 1: Анализ бинарных vs текстовых файлов
         weight_text = game_data / "ObjWeightParamsPrototypes.cfg"
         weight_bin = game_data / "ObjWeightParamsPrototypes.cfg.bin"
         effect_text = game_data / "ObjEffectMaxParamsPrototypes.cfg"
         effect_bin = game_data / "ObjEffectMaxParamsPrototypes.cfg.bin"
         
-        # Проверяем все возможные комбинации
         binary_count = 0
         text_count = 0
         
@@ -144,7 +142,6 @@ class PakManager:
             text_count += 1
             result['details']['effect_params'] = 'text'
         
-        # Анализируем CoreVariables
         core_vars = game_data / "CoreVariables.cfg"
         if core_vars.exists():
             result['details']['core_variables'] = 'text'
@@ -171,7 +168,6 @@ class PakManager:
                 with open(core_vars, 'r', encoding='utf-8', errors='ignore') as f:
                     content = f.read(16384)
                     
-                    # Проверяем наличие параметров из разных версий
                     version_indicators = {
                         '1.8.1': [
                             'StaminaRegenStateCoefs',
@@ -204,25 +200,21 @@ class PakManager:
                             found_indicators[version] = found
                             result['details'][f'indicators_{version}'] = found
                     
-                    # Если нашли индикаторы и текущая уверенность низкая
                     if found_indicators and result['confidence'] < 80:
-                        # Выбираем версию с наибольшим количеством совпадений
                         best_version = max(found_indicators.items(), key=lambda x: len(x[1]))
                         if len(best_version[1]) >= 2:
                             result['version'] = best_version[0]
                             result['confidence'] = 80
                             result['methods_used'].append("parameter_analysis")
-                            # Обновляем is_modern на основе версии
                             result['is_modern'] = '1.8.1' in best_version[0]
             except Exception as e:
                 result['details']['core_vars_error'] = str(e)
         
-        # МЕТОД 3: Анализ версии в исполняемом файле игры (самый точный)
+        # МЕТОД 3: Анализ версии в исполняемом файле игры
         try:
             config = self.config_manager.get_app_config()
             game_path = Path(config.get('game_base_path', ''))
             
-            # Проверяем несколько возможных путей к exe
             possible_exe_paths = [
                 game_path / "Stalker2" / "Binaries" / "Win64" / "Stalker2-Win64-Shipping.exe",
                 game_path / "Stalker2.exe",
@@ -232,10 +224,9 @@ class PakManager:
             for exe_path in possible_exe_paths:
                 if exe_path.exists():
                     with open(exe_path, 'rb') as f:
-                        exe_data = f.read(131072)  # 128KB
+                        exe_data = f.read(131072)
                         exe_str = exe_data.decode('utf-8', errors='ignore')
                         
-                        # Ищем различные паттерны версии
                         version_patterns = [
                             (r'ProductVersion[\x00-\xFF]{0,20}(\d+\.\d+\.\d+(?:\.\d+)?)', 98),
                             (r'FileVersion[\x00-\xFF]{0,20}(\d+\.\d+\.\d+(?:\.\d+)?)', 97),
@@ -247,14 +238,11 @@ class PakManager:
                             match = re.search(pattern, exe_str)
                             if match:
                                 found_version = match.group(1)
-                                # Проверяем, что это похоже на версию S.T.A.L.K.E.R. 2
                                 if found_version.count('.') >= 2:
-                                    # Если нашли более точную версию, обновляем
                                     if confidence > result['confidence']:
                                         result['version'] = found_version
                                         result['confidence'] = confidence
                                         result['methods_used'].append(f"exe_{pattern[1:10]}")
-                                        # Обновляем is_modern на основе версии
                                         result['is_modern'] = found_version.startswith('1.8')
                                     break
                         break
@@ -271,7 +259,6 @@ class PakManager:
                         version_match = re.search(r'(\d+\.\d+\.\d+(?:\.\d+)?)', content)
                         if version_match:
                             found_version = version_match.group(1)
-                            # Если нашли версию и уверенность низкая или это более точная версия
                             if result['confidence'] < 85:
                                 result['version'] = found_version
                                 result['confidence'] = 85
@@ -285,18 +272,15 @@ class PakManager:
         
         # МЕТОД 5: Анализ дат модификации файлов
         try:
-            # Собираем даты модификации ключевых файлов
             mod_times = []
             for file in game_data.rglob("*"):
-                if file.is_file() and file.stat().st_size > 10000:  # Только значимые файлы
+                if file.is_file() and file.stat().st_size > 10000:
                     mod_times.append(file.stat().st_mtime)
             
             if mod_times and result['confidence'] < 70:
-                # Берем медианную дату
                 median_time = statistics.median(mod_times)
                 median_date = datetime.fromtimestamp(median_time)
                 
-                # Даты выхода версий (уточненные)
                 release_dates = {
                     '1.5.2': datetime(2024, 10, 15),
                     '1.6.0': datetime(2024, 11, 1),
@@ -304,12 +288,11 @@ class PakManager:
                     '1.8.1': datetime(2024, 12, 1),
                 }
                 
-                # Находим ближайшую дату релиза
                 closest_version = min(release_dates.items(), 
                                      key=lambda x: abs((x[1] - median_date).days))
                 days_diff = abs((closest_version[1] - median_date).days)
                 
-                if days_diff < 45:  # Если разница меньше 45 дней
+                if days_diff < 45:
                     result['version'] = closest_version[0]
                     result['confidence'] = 70
                     result['methods_used'].append("file_dates_analysis")
@@ -321,7 +304,6 @@ class PakManager:
         
         # МЕТОД 6: Проверка наличия специфических папок для версий
         try:
-            # Папки, характерные для разных версий
             version_folders = {
                 '1.8.1': [
                     "Quests/DLC_Quests",
@@ -355,17 +337,14 @@ class PakManager:
         
         # Финальная калибровка уверенности
         if result['confidence'] >= 90:
-            # Уже очень уверены
             pass
         elif result['confidence'] >= 70:
-            # Проверяем консистентность методов
             modern_indicators = sum([
                 result['is_modern'],
                 'binary_files_detected' in result['methods_used'],
                 any('1.8' in m for m in result['methods_used']),
                 any('1.8' in str(result.get('version', '')) for _ in [0])
             ])
-            
             if modern_indicators >= 2:
                 result['is_modern'] = True
                 result['confidence'] = min(85, result['confidence'] + 10)
@@ -427,26 +406,21 @@ class PakManager:
             return False
     
     def get_latest_extraction(self) -> Optional[Path]:
-        """Get the path to the latest extraction folder"""
-        config = self.config_manager.get_app_config()
-        
-        if 'last_extraction_path' in config:
-            path = Path(config['last_extraction_path'])
-            if path.exists():
-                return path
-        
+        """Get the path to the latest extraction folder (always searches in data/extract)"""
         extract_dir = Path("data/extract")
-        if extract_dir.exists():
-            extractions = []
-            for item in extract_dir.iterdir():
-                if item.is_dir() and 'pakchunk' in item.name.lower():
-                    try:
-                        extractions.append((item.stat().st_mtime, item))
-                    except:
-                        extractions.append((0, item))
-            
-            if extractions:
-                extractions.sort(key=lambda x: x[0], reverse=True)
-                return extractions[0][1]
+        if not extract_dir.exists():
+            return None
+        
+        extractions = []
+        for item in extract_dir.iterdir():
+            if item.is_dir() and 'pakchunk' in item.name.lower():
+                try:
+                    extractions.append((item.stat().st_mtime, item))
+                except:
+                    extractions.append((0, item))
+        
+        if extractions:
+            extractions.sort(key=lambda x: x[0], reverse=True)
+            return extractions[0][1]
         
         return None
